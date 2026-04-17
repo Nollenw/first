@@ -7,5 +7,5 @@ import (
 )
 
 func CreatConnection(ctx context.Context) (*pgx.Conn, error) {
-	return pgx.Connect(ctx, "postgres://postgres:2608@localhost:5432/postgres")
+	return pgx.Connect(ctx, "postgres://nollen:2608@localhost:5432/postgres")
 }
